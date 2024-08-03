@@ -16,9 +16,5 @@ const carOptional: { type: string, model?: string } = {
 carOptional.model = 'Corolla';
 console.log(carOptional);
 
-
 //index signatures
 let cars: { type: string, mode: number };
-
-
-
