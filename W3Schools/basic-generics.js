@@ -1,6 +1,0 @@
-function createLoggedPair(v1, v2) {
-    console.log("creating pair: v1='".concat(v1, "', v2='").concat(v2, "'"));
-    return [v1, v2];
-}
-createLoggedPair('hello', 42); // Error
-createLoggedPair('hello', 'world'); // OK
