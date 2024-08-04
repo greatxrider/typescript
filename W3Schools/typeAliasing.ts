@@ -1,18 +1,18 @@
-type CarType = string;
-type CarModel = string;
-type CarYear = number;
+type CarYear = number
+type CarType = string
+type CarModel = string
 type Car = {
     year: CarYear,
-    model: CarModel,
-    type: CarType
-};
+    type: CarType,
+    model: CarModel
+}
 
-let carString: CarType = "BMW";
-let carModel: CarModel = "X5";
-let carYear: CarYear = 2024;
+const carYear: CarYear = 2001
+const carType: CarType = "Toyota"
+const carModel: CarModel = "Corolla"
 
-const car1: Car = {
+const car_aliasing: Car = {
     year: carYear,
-    type: carString,
+    type: carType,
     model: carModel
 };
