@@ -2,7 +2,7 @@ const array: number[] = [];
 
 const arrayTuple: [number, string] = [12, "hallelujah"];
 
-const object: {type: string, number: number} = {
+const object: { type: string, number: number } = {
     type: 'oh',
     number: 12
 }
